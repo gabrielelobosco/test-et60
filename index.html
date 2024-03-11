@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ET60 - HomePage</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menu -->
+
+    <nav>
+        <li id="navItem">
+            <div id="menuButton">
+                <a href="#landing">Home</a>
+            </div>
+        </li>
+        <li id="navItem">   
+            <div id="menuButton">
+                <a href="#aboutUs">Chi Siamo</a>
+            </div>
+        </li>
+        <li id="navItem">
+            <div id="menuButton">
+                <a href="#news">News</a>
+            </div>
+        </li>
+        <li id="navItem">
+            <div id="menuButton">
+                <a href="#contactUs">Contattaci</a>
+            </div>
+        </li>
+    </nav>
+
+
+    <section class="sections" id="landing">
+        <div id="titlesGroup" class="titlesGroupIdle">
+            <h1 id="title">ET60.IT</h1>
+            <h6 id="subtitle">SU MISURA PER TE</h6>
+        </div>
+    </section>
+    <section class="sections" id="aboutUs">
+        <div class="aboutUsBox" id="leftBox">
+            <p class="aboutUsText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias eligendi architecto officia voluptates odit! Excepturi nulla repellat quos eligendi accusamus ea. Nobis aspernatur dolorum voluptas repellat vero, voluptates nostrum. Non.</p>
+        </div>
+        <div class="aboutUsBox" id="rightBox">
+            <p class="aboutUsText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia sit eos labore! Ratione vero error ullam. Non laborum dignissimos omnis praesentium vero mollitia distinctio voluptate magnam itaque quae, odit corrupti.</p>
+        </div>
+    </section>
+    <section class="sections" id="news">
+        <h1>News</h1>
+    </section>
+    <section class="sections" id="contactUs">
+        <div class="contactUsSplitDiv">
+                <h1 id="contactUsTitle">CONTATTACI</h1>
+                <p id ="contactUsSubtitle">Inserisci i tuoi dati e verrai ricontattato<br> al più presto!</p>
+            </span>
+        </div>
+        <div class="contactUsSplitDiv">
+            <form method="post" id="contactUsForm" name="contact_form" action="send_email.php">
+                        
+                <input type="text" name="name" id="c_name" placeholder="Nome">
+                <br>
+                <input type="email" name="email" id="c_email" placeholder="E-Mail">
+                <br>
+                <textarea name="message" name="message" id="c_message" placeholder="Messaggio" rows="8"></textarea>
+                <br>
+                <button type="submit" id="c_submit">Invia Messaggio</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="sections" id="footer">
+        <h3><span style = "font-weight: 200">Sponsor : </span> <a href = "https://www.nepentha.com">nepentha.com</a></h3>
+        <h6>made by <a href="https://www.github.com/gabrielelobosco">gabrielelobosco</a></h6>
+        <h5>&copy;2023/2024 - et60.it</h5>
+    </section>
+</body>
+</html>
