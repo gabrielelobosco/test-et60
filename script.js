@@ -5,11 +5,15 @@ addEventListener("scroll", (event) => {
 
     var sections = document.getElementsByClassName("sections");
 
+    var landing_btn = document.getElementById("landing-btn");
+
     if (window.scrollY > sections[0].getBoundingClientRect().bottom/2) {
         titlesGroup.classList.add("titleWhite");
+        landing_btn.classList.add("hide");
     }
     if (window.scrollY < sections[0].getBoundingClientRect().bottom/2) {
         titlesGroup.classList.remove("titleWhite");
+        landing_btn.classList.remove("hide");
     }
 
     var leftBox = document.getElementById("leftBox");
