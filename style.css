@@ -67,7 +67,7 @@ a {
 }
 
 #news {
-    background-image: url("/img/news_bg.png"); 
+    background-image: url("img/news_bg.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 150vh;
